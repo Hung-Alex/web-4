@@ -1,0 +1,73 @@
+#menu-bar .top{
+    float: left;
+    list-style: none;
+    padding: 10px 20px;
+    color:white;
+    font-family: 'Fruktur', cursive;
+}
+#menu-bar
+{
+    margin-left: 100px ;
+  
+    height: 100px;
+}
+#menu-bar  .top:hover
+{
+    color: rgb(238, 240, 157);
+}
+.header
+{
+    background-color: black;
+    width: 100%;
+    height: 51px;
+}
+.second-menu 
+{
+   background-color: black;
+   padding-left: 10px ;
+   margin-left: 50px;
+}
+.second-menu li:nth-of-type(1)
+{
+    list-style: none;
+    margin-top:10px;
+}
+.second-menu li
+{
+    list-style: none;
+    padding:10px 10px ;
+    display: none;
+}
+.top#selec:hover .second-menu li
+{
+    display: block;
+} 
+.row-1 li{
+    float: left;
+    list-style: none;
+    padding : 10px 50px;
+}
+.row-1
+{
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.row-1 img 
+{
+    width: 100px;
+}
+.row-2 li
+{
+    list-style: none;
+    float: left;
+    padding: 10px 50px;
+    
+}
+.row-2 img
+{
+    width: 100px;
+}
+
+
+
+
